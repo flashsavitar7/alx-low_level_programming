@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - determines if n's last digit is greater than 5, is less than 6, or is equal to zero
+ * main - if n last digit is greater 5, is less than 6, or is equal to zero
  *
  * Return: Always 0 (success)
  */
@@ -13,22 +13,22 @@
 
 int main(void)
 {
-	int n, lastDigit;
+	int n, l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastDigit = n % 10;
-	if (lastDigit > 5)
+	l = n % 10;
+	if (l > 5)
 	{
-		printf("Last digit of %d is %d greater than 5\n", n, lastDigit);
+		printf("Last digit of %d is %d and is greater than 5\n", n, l);
 	}
-	else if (lastDigit == 0)
+	else if (l == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n", n, lastDigit);
+		printf("Last digit of %d is %d and is 0\n", n, l);
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
 	return (0);
 }
