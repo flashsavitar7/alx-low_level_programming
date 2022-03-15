@@ -4,16 +4,15 @@
 /**
  * _abs - for printing absolute valu of r
  *
- *@int: data type
+ *@r: integer value
  *
  * Return: absolute value
  */
 
 
-int _abs(int)
+int _abs(int r)
 
 {
-	int r;
 
 	if (r >= 0)
 	{
