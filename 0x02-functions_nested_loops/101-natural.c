@@ -9,7 +9,7 @@
 int main(void)
 
 {
-	int a;
+	int a, b;
 
 	for (a = 1; a < 1024; a++)
 
@@ -20,7 +20,7 @@ int main(void)
 
 
 	}
-	printf("%d\n", a);
+	printf("%d\n", b);
 	return (0);
 }
 
