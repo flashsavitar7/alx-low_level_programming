@@ -18,7 +18,7 @@ int main(void)
 	for (c = 0; c < 48; c++)
 	{
 		op = a + b;
-		printf(", %ld", fn);
+		printf(", %ld", op);
 		a = b;
 		b = op;
 	}
