@@ -8,7 +8,8 @@
  * @c: The digit in ASCII code
  *
  * Return: 1 for digit . 0 for the rest.
- *         */
+ */
+
 int _isdigit(int c)
 
 {
