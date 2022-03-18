@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_line - print a diagonal across terminal
+ *print_diagonal - print a diagonal across terminal
  *
  * @n: number odiagonals printed
  *
@@ -10,13 +10,12 @@
 void print_diagonal(int n)
 
 {
-        int i;
+	int i;
 
-        for (i = 0; i < n; i++)
-        {
-
-                _putchar(92);
-        }
-        _putchar('\n');
+	for (i = 0; i < n; i++)
+	{
+		_putchar(92);
+	}
+	_putchar('\n');
 }
 
