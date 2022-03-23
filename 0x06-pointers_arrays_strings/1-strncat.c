@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
+ * _strncat - concatenates two strings
  * @dest: input value
  * @src: input value
  * @n: n num of bytes
