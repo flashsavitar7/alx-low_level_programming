@@ -3,18 +3,16 @@
 #include <stdlib.h>
 
 /**
- *
  * print_list - prints all elements inside list_t
- * @h - singly linked lists
- * return: number of nodes
+ * @h: ssingly linked lists
+ * Return: number of nodes
  */
-
-
 
 size_t print_list(const list_t *h)
 
 {
 	size_t j;
+
 	for (j = 0; h; j++)
 
 	{
@@ -23,5 +21,5 @@ size_t print_list(const list_t *h)
 	}
 
 
-	return(j);
+	return (j);
 }
